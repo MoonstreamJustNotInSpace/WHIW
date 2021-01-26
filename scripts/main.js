@@ -1,3 +1,4 @@
 require("mini-core");
-require("decontest");
 Blocks.coreShard.buildVisibility = BuildVisibility.shown;
+require("test-pad");
+require("multi-pad");

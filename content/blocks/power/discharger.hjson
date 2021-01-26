@@ -6,7 +6,6 @@ hasPower: true
 hasItems: true
 itemDuration: 600
 powerProduction: 5
-updateEffect: smeltsmoke
 consumes: {
   items: {
     items: [

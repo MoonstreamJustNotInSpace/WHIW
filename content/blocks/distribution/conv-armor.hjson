@@ -1,0 +1,13 @@
+type: armoredConveyor
+name: Armored Copper Conveyor
+description: Cheap stuff, huh?
+health: 45
+hasItems: true
+itemCapacity: 4
+requirements: [
+  copper/2
+]
+category: distribution
+speed: 0.03
+research: conveyor
+
