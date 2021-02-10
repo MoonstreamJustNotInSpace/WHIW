@@ -1,14 +1,14 @@
-name: "Unit Pad 2"
+name: "Unit Cap +1"
 description: It does THINGS!!!!
 details: OOPS
-size: 2
+size: 1
 hasItems: false
 requirements: [
     copper/5
 ]
 category: effect
-destructible:true
+breakable:true
 alwaysUnlocked:true
-unitCapModifier: 0
-solid:false
-floating:true
+unitType: alpha
+unitCapModifier: 1
+solid:true

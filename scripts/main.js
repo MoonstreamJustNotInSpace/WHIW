@@ -1,4 +1,5 @@
-require("mini-core");
+require("effect/mini-core");
 Blocks.coreShard.buildVisibility = BuildVisibility.shown;
-require("test-pad");
-require("multi-pad");
+require("effect/test-pad");
+require("effect/multi-pad");
+require("effect/unit-cap-thing")
