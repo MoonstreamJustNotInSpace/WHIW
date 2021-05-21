@@ -1,0 +1,28 @@
+name: Air Unit Unpacker
+type: UnitFactory
+size: 3
+consumes: {
+  power: 1
+}
+plans: [
+  {
+    unit: flare
+    requirements: [
+      apuck/1
+    ] 
+    time: 60
+  }
+  {
+    unit: mono
+    requirements: [
+      apuck/1
+    ] 
+    time: 60
+  }
+]
+requirements: [
+  copper/50
+  lead/50
+]
+category: units
+research: air-factory

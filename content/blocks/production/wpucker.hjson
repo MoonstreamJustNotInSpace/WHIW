@@ -1,0 +1,31 @@
+name: W.P.U.C.K Fabricator
+type: GenericCrafter
+
+size: 3
+craftTime: 600
+craftEffect: pulverize
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity:80
+updateEffect: plasticburn
+consumes: {
+power:1.5
+	items: {
+		items: [
+			silicon/20
+			metaglass/35
+		]
+	}
+}
+
+outputItem: wpuck/1
+
+requirements: [
+	copper/150
+	lead/130
+	metaglass/120
+]
+
+category: crafting
+research: mechanical-drill

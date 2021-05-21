@@ -1,0 +1,15 @@
+type: armoredConveyor
+name: Armored Titanium Conveyor
+description: For people.
+health:  65
+hasItems: true
+itemCapacity: 4
+requirements: [
+  copper/2
+  lead/2
+  titanium/2
+]
+category: distribution
+speed: 0.08
+research: titanium-conveyor
+

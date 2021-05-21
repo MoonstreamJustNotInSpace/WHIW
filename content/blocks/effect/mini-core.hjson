@@ -1,0 +1,16 @@
+name: "Small Core"
+description: It does THINGS!!!!
+details: CoreCoreCore
+size: 2
+health: 50
+itemCapacity: 1000
+
+requirements: [
+    copper/1000
+    lead/1000
+]
+category: effect
+breakable:true
+alwaysUnlocked:true
+unitType: gamma
+unitCapModifier: 1

@@ -1,0 +1,33 @@
+name: G.P.U.C.K Fabricator
+type: GenericCrafter
+
+size: 3
+craftTime: 600
+craftEffect: pulverize
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity:60
+updateEffect: plasticburn
+consumes: {
+power:1.5
+	items: {
+		items: [
+			coal/20
+			silicon/30
+			lead/20
+			titanium/20
+		]
+	}
+}
+
+outputItem: gpuck/1
+
+requirements: [
+	copper/50
+	lead/120
+	silicon/80
+]
+
+category: crafting
+research: ground-factory

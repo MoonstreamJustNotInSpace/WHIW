@@ -1,0 +1,14 @@
+name: "Unit Pad 2"
+description: It does THINGS!!!!
+details: OOPS
+size: 2
+hasItems: false
+requirements: [
+    copper/5
+]
+category: effect
+destructible:true
+alwaysUnlocked:true
+unitCapModifier: 0
+solid:false
+floating:true

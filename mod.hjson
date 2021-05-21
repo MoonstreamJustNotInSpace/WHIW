@@ -1,0 +1,8 @@
+name: "whiw"
+displayName: "WHAT HATH I WROUGHT"
+author: YOUR FACE.
+description: "Well... This happened."
+version: "1.0"
+minGameVersion: "105"
+dependencies: [ ]
+hidden: false

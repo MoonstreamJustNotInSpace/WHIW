@@ -1,0 +1,35 @@
+name: Ground Unit Unpacker
+type: UnitFactory
+size: 3
+consumes: {
+  power: 1
+}
+plans: [
+  {
+    unit: dagger
+    requirements: [
+      gpuck/1
+    ] 
+    time: 60
+  }
+  {
+    unit: crawler
+    requirements: [
+      gpuck/1
+    ] 
+    time: 60
+  }
+  {
+    unit: nova
+    requirements: [
+      gpuck/1
+    ] 
+    time: 60
+  }
+]
+requirements: [
+  copper/50
+  lead/50
+]
+category: units
+research: ground-factory

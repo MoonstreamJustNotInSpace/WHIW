@@ -1,0 +1,20 @@
+{
+	"type": "GenericCrafter",
+	"name": "Battery Charger",
+	"description": "What do you think it does?",
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 600,
+	"updateEffect": "smeltsmoke",
+	"outputItem": {"item": "battery-item", "amount": 1},
+	"consumes": {
+		"power": 5,},
+	"requirements": [
+		{ "item": "copper", "amount": 150 },
+	],
+	"category": "power",
+	"research": "graphite-press",
+}

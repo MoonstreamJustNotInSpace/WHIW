@@ -1,0 +1,21 @@
+type: SingleTypeGenerator
+name: Battery Discharger
+description: What do you think it does?.
+size: 1
+hasPower: true
+hasItems: true
+itemDuration: 600
+powerProduction: 5
+consumes: {
+  items: {
+    items: [
+      battery-item/1
+    ]
+optional: true
+  }
+}
+requirements: [
+copper/150
+]
+category: power
+research: graphite-press

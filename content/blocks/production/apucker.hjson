@@ -1,0 +1,30 @@
+name: A.P.U.C.K Fabricator
+type: GenericCrafter
+
+size: 3
+craftTime: 600
+craftEffect: pulverize
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity:60
+updateEffect: plasticburn
+consumes: {
+power:1.5
+	items: {
+		items: [
+			lead/15
+			silicon/30
+		]
+	}
+}
+
+outputItem: apuck/1
+
+requirements: [
+	copper/60
+	lead/70
+]
+
+category: crafting
+research: air-factory

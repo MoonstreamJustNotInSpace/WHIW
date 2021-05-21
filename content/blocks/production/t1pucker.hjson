@@ -1,0 +1,31 @@
+name: T1 P.U.C.K Fabricator
+type: GenericCrafter
+
+size: 3
+craftTime: 600
+craftEffect: pulverize
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity:80
+updateEffect: plasticburn
+consumes: {
+power:3.5
+	items: {
+		items: [
+			graphite/40
+			silicon/40
+		]
+	}
+}
+
+outputItem: puckt1/1
+
+requirements: [
+	copper/200
+	lead/120
+	silicon/90
+]
+
+category: crafting
+research: additive-reconstructor

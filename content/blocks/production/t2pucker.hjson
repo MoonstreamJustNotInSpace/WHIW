@@ -1,0 +1,33 @@
+name: T2 P.U.C.K Fabricator
+type: GenericCrafter
+
+size: 5
+craftTime:1800
+craftEffect: pulverize
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity:260
+updateEffect: plasticburn
+consumes: {
+power:7
+	items: {
+		items: [
+			silicon/130
+			titanium/80
+			metaglass/40
+		]
+	}
+}
+
+outputItem: puckt2/1
+
+requirements: [
+	lead/650
+	titanium/350
+	thorium/650
+	silicon/450
+]
+
+category: crafting
+research: multiplicative-reconstructor

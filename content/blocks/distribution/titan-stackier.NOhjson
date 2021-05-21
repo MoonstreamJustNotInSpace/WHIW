@@ -1,0 +1,12 @@
+name: titan stack thing ANOTHERTHING
+type: StackConveyor
+requirements: [
+copper/3
+lead/3
+titanium/3
+]
+health: 65
+speed: 0.4
+itemCapacity: 1
+research: titanium-conveyor
+category: distribution

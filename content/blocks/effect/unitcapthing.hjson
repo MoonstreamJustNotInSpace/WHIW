@@ -1,0 +1,14 @@
+name: "Unit Cap +1"
+description: It does THINGS!!!!
+details: OOPS
+size: 1
+hasItems: false
+requirements: [
+    copper/5
+]
+category: effect
+breakable:true
+alwaysUnlocked:true
+unitType: alpha
+unitCapModifier: 1
+solid:true

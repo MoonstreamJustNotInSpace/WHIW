@@ -1,0 +1,26 @@
+name: T2 PUCK Unpacker
+type: Reconstructor
+size: 5
+consumes: {
+  power: 2
+  items: {
+    items: [
+    puckt2/1
+    ]
+  }
+}
+constructTime: 20
+requirements: [
+  copper/100
+  lead/100
+]
+upgrades: [
+  [pulsar,quasar]
+  [mace,fortress]
+  [atrax,spiroct]
+  [horizon,zenith]
+  [poly,mega]
+  [minke,bryde]
+]
+category: units
+research: multiplicative-reconstructor

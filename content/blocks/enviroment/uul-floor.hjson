@@ -1,0 +1,8 @@
+type: Floor
+localizedName: uu-floor
+isLiquid: true
+variants: 1
+cacheLayer: water
+liquidMultiplier: 0.17
+liquidDrop: uu-matter
+solid: false
